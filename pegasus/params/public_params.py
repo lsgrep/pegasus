@@ -156,7 +156,8 @@ def aeslc_transformer(param_overrides):
           "test_pattern": "tfds:aeslc-test",
           "max_input_len": 512,
           "max_output_len": 32,
-          "train_steps": 32000,
+          #"train_steps": 32000,
+          "train_steps": 1000,
           "learning_rate": 0.0001,
           "batch_size": 8,
       }, param_overrides)
